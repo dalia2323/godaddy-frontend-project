@@ -4,33 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/all.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+
     <title>Document</title>
 </head>
 <body>
 <header>
     <nav>
-        <i class="fa-brands fa-envira"></i>
-        <h2>GoDaddy</h2>
-        <ul class="navbar">
-            <li><a href="#home">Domain Names</a></li>
-            <li><a href="#about">Website& Hosting</a></li>
-            <li><a href="#services">Commerce</a></li>
-            <li><a href="#contact">Email & Marketing</a></li>
-            <li><a href="#contact">Expert Services</a></li>
-            <li><a href="#contact">More</a></li>
-        </ul>
-        <ul class="navbar">
-            <li><a href="#services">Help Center</a></li>
-            <li><a href="#contact">Sign IN</a></li>
-            <li><i class="fa-solid fa-cart-shopping"></i></li>
-        </ul>
+        <div class="lists">
+        <div class="navbar-list1">
+        <a href="javascript:void(0);"onclick="dropDownFunction()"> <i class="fa fa-bars" ></i></a>         
+
+          <i class="fa-brands fa-envira"></i>
+          <h2>GoDaddy</h2>
+          <div id="dropdown-content">
+          <a href="#">Domain Names</a>
+          <a href="#">Websites & Hosting</a>
+          <a href="#">Commerce</a>
+          <a href="#">Email & Marketing</a>
+          <a href="#">Expert Services</a>
+          <a href="#">More</a>
+          </div>
+        </div>
+        <div class="navbar-list2">
+          <a href="#">Help Center</a>
+          <a href="#">Sign In</a>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
     </nav>
 </header>   
 <main>
     <section>
         <div class="input-button-container">
             <input type="text" placeholder="Search..." />
-            <button type="button">Go</button>
+            <button type="button">Search Domain</button>
           </div>
           <div class="domain-options">
             <div class="domain-item">
@@ -52,10 +60,28 @@
           </div>
           
     </section>
-   
+  <section>
+    <div>
+      <h6>Website & Commerce</h6>
+      <h1>Buy a domain and get online fast with AI.</h1>
+      <span>Website and store solutions for any small business</span>
+      <button>Get Started</button> <span>learn more</span>
+      <p>No credit card required...</p>
+    </div>
+    <div>
+      <h5>Domain Name</h5>
+      <h2>Grab a .com for just $0.01/1st yr</h2>
+      <p>2 year purchase required</p>
+      <button>Find your domain</button>
+      <p>transfer your domain</p>
+      <p>Domains includes free privacy and protraction*</p>
+    </div>
+  </section> 
 
       
 </main> 
 <footer></footer>
+<script src="main.js"></script>
+
 </body>
 </html>
